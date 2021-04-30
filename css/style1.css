@@ -1,0 +1,21 @@
+.conteiner4 .item span {
+  color: red;
+}
+
+.wrapper {
+  max-width: 1920px;
+}
+
+.conteiner2 p {
+  color: #222222;
+}
+
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style1.css.map */

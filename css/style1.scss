@@ -1,0 +1,32 @@
+$color_new:red;
+
+.conteiner4{
+    .item{
+        span{
+            color: $color_new;
+        }
+    }
+}
+
+@mixin otstyp{
+        max-width: 1920px;
+    
+}
+
+.wrapper{
+    @include otstyp;
+}
+$dark:#222222;
+.conteiner2{
+    p{
+        color: $dark;
+    }
+}
+  %flex{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu ul{
+    @extend %flex;
+}
